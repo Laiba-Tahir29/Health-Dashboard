@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Hydration Tracker</title>
+</head>
+<body>
+    <h1 id="header">Hydration Progress</h1>
+    <p>View your hydration progress</p>
+    
+    <div id="Tracker">
+        <div class="water-icon">💧</div>
+        <div class="main-stats">
+            <span id="consumed">0</span>oz • <span id="percentage">0%</span>
+        </div>
+        <div class="remaining">
+            Remaining: <span id="remaining">64</span>oz
+        </div>
+    <div class="progress-bar">
+    <div class="progress-fill" id="progress"></div>
+</div>
+        <button onclick="addwater()" id="button">Add Oz </button>
+    </div>
+</body>
+</html>
