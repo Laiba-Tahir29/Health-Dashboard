@@ -6,10 +6,10 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #25a4f9 0%, #2b0dd8 100%);
+    background: linear-gradient(135deg, #25a4f9 0%, hsl(296, 50%, 69%) 100%);
     min-height: 100vh;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -29,7 +29,7 @@ body > p {
 }
 
 #Tracker {
-    background: white;
+    background: rgb(161, 189, 255);
     border-radius: 20px;
     padding: 40px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
@@ -39,7 +39,7 @@ body > p {
 }
 
 .water-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 20px;
     animation: bounce 2s infinite;
 }
@@ -68,7 +68,7 @@ body > p {
 
 #remaining {
     font-weight: bold;
-    color: #764ba2;
+    color: #4e2448;
 }
 
 .progress-bar {
